@@ -1,0 +1,8 @@
+\section*{Introduction}
+\addcontentsline{toc}{section}{Introduction}
+
+	Le but de ce projet est de tirer le maximum de performance d'une machine sur la résolution d'un problème de type stencil à deux dimensions. Pour cela, nous cherchons à utiliser non seulement du parallélisme sur le processeur de la machine mais aussi d'exploiter son GPU.\\
+	
+	Pour réaliser une telle opération, la matrice d'entrée doit \^etre découpée en deux parties. Une sera traitée par le CPU et l'autre par le GPU. Cependant ceci pose deux problèmes majeurs qui sont le découpage de la matrice en deux parties et la communication des résultats entre processeur et carte graphique.\\
+	
+	Dans ce rapport nous allons donc aborder ces deux problématiques ainsi que les solutions adoptées. Nous verrons ensuite les performances obtenues gr\^ace à cette parallélisation. 
